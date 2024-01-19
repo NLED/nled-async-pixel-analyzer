@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{738B6E5F-65FB-31A0-AE83-18BCF01E8CA0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>analyzersdk-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'analyzersdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/tmp/analyzersdk-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'analyzersdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\languages\c\async-rgb-led-analyzer\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/tmp/analyzersdk-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\analyzersdk-populate-gitinfo.txt;C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'analyzersdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/tmp/analyzersdk-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'analyzersdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'analyzersdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\tmp\analyzersdk-populate-cfgcmd.txt;C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'analyzersdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'analyzersdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'analyzersdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\f635d2eba2ba5a2d7cfea808e7f3f5c8\analyzersdk-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'analyzersdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/Debug/analyzersdk-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-install;C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-mkdir;C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-download;C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-update;C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-patch;C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-configure;C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-build;C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\src\analyzersdk-populate-stamp\Debug\analyzersdk-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\Debug\analyzersdk-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\5825d81c6aea8ba3f6d2acb50d213747\analyzersdk-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\Debug\analyzersdk-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\analyzersdk-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild -BC:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild --check-stamp-file C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.25\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.25\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\3.25.2\CMakeSystem.cmake;C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\analyzersdk-populate-prefix\tmp\analyzersdk-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\analyzersdk-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{74BE6692-EFFD-3B95-ABF9-B28E46D6E07B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

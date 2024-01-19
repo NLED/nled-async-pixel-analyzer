@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\583ecf1eab093360ad50f74ee46d6bdb\analyzersdk-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\f635d2eba2ba5a2d7cfea808e7f3f5c8\analyzersdk-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\5825d81c6aea8ba3f6d2acb50d213747\analyzersdk-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-subbuild\CMakeFiles\analyzersdk-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A52765E1-7A56-334F-AED2-B585E63015DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

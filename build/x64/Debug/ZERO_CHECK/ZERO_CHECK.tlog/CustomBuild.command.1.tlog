@@ -1,0 +1,10 @@
+^C:\LANGUAGES\C\ASYNC-RGB-LED-ANALYZER\BUILD\CMAKEFILES\DA0A0E489D1ECD8F818B1B63314D950B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/languages/c/async-rgb-led-analyzer -BC:/languages/c/async-rgb-led-analyzer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/languages/c/async-rgb-led-analyzer/build/nled_async_pixel_analyzer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

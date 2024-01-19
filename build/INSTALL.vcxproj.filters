@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\build\CMakeFiles\da0a0e489d1ecd8f818b1b63314d950b\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{39B65D34-6944-3569-9903-492E03DB4AEF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

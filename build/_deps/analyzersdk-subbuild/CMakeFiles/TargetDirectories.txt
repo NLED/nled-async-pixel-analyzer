@@ -1,0 +1,3 @@
+C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/analyzersdk-populate.dir
+C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/ZERO_CHECK.dir

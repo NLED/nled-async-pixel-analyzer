@@ -1,0 +1,150 @@
+^C:\LANGUAGES\C\ASYNC-RGB-LED-ANALYZER\BUILD\_DEPS\ANALYZERSDK-SUBBUILD\CMAKEFILES\583ECF1EAB093360AD50F74EE46D6BDB\ANALYZERSDK-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/tmp/analyzersdk-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\LANGUAGES\C\ASYNC-RGB-LED-ANALYZER\BUILD\_DEPS\ANALYZERSDK-SUBBUILD\CMAKEFILES\583ECF1EAB093360AD50F74EE46D6BDB\ANALYZERSDK-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\languages\c\async-rgb-led-analyzer\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/tmp/analyzersdk-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\LANGUAGES\C\ASYNC-RGB-LED-ANALYZER\BUILD\_DEPS\ANALYZERSDK-SUBBUILD\CMAKEFILES\583ECF1EAB093360AD50F74EE46D6BDB\ANALYZERSDK-POPULATE-UPDATE.RULE
+setlocal
+cd C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/tmp/analyzersdk-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\LANGUAGES\C\ASYNC-RGB-LED-ANALYZER\BUILD\_DEPS\ANALYZERSDK-SUBBUILD\CMAKEFILES\583ECF1EAB093360AD50F74EE46D6BDB\ANALYZERSDK-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\LANGUAGES\C\ASYNC-RGB-LED-ANALYZER\BUILD\_DEPS\ANALYZERSDK-SUBBUILD\CMAKEFILES\583ECF1EAB093360AD50F74EE46D6BDB\ANALYZERSDK-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\LANGUAGES\C\ASYNC-RGB-LED-ANALYZER\BUILD\_DEPS\ANALYZERSDK-SUBBUILD\CMAKEFILES\583ECF1EAB093360AD50F74EE46D6BDB\ANALYZERSDK-POPULATE-BUILD.RULE
+setlocal
+cd C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\LANGUAGES\C\ASYNC-RGB-LED-ANALYZER\BUILD\_DEPS\ANALYZERSDK-SUBBUILD\CMAKEFILES\583ECF1EAB093360AD50F74EE46D6BDB\ANALYZERSDK-POPULATE-INSTALL.RULE
+setlocal
+cd C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\LANGUAGES\C\ASYNC-RGB-LED-ANALYZER\BUILD\_DEPS\ANALYZERSDK-SUBBUILD\CMAKEFILES\583ECF1EAB093360AD50F74EE46D6BDB\ANALYZERSDK-POPULATE-TEST.RULE
+setlocal
+cd C:\languages\c\async-rgb-led-analyzer\build\_deps\analyzersdk-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\LANGUAGES\C\ASYNC-RGB-LED-ANALYZER\BUILD\_DEPS\ANALYZERSDK-SUBBUILD\CMAKEFILES\F635D2EBA2BA5A2D7CFEA808E7F3F5C8\ANALYZERSDK-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/Debug/analyzersdk-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/Debug/analyzersdk-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\LANGUAGES\C\ASYNC-RGB-LED-ANALYZER\BUILD\_DEPS\ANALYZERSDK-SUBBUILD\CMAKEFILES\5825D81C6AEA8BA3F6D2ACB50D213747\ANALYZERSDK-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\LANGUAGES\C\ASYNC-RGB-LED-ANALYZER\BUILD\_DEPS\ANALYZERSDK-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild -BC:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild --check-stamp-file C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

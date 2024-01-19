@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\languages\c\async-rgb-led-analyzer\src\AsyncRgbLedAnalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\languages\c\async-rgb-led-analyzer\src\AsyncRgbLedAnalyzerResults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\languages\c\async-rgb-led-analyzer\src\AsyncRgbLedAnalyzerSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\languages\c\async-rgb-led-analyzer\src\AsyncRgbLedHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\languages\c\async-rgb-led-analyzer\src\AsyncRgbLedSimulationDataGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\languages\c\async-rgb-led-analyzer\src\AsyncRgbLedAnalyzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\languages\c\async-rgb-led-analyzer\src\AsyncRgbLedAnalyzerResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\languages\c\async-rgb-led-analyzer\src\AsyncRgbLedAnalyzerSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\languages\c\async-rgb-led-analyzer\src\AsyncRgbLedHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\languages\c\async-rgb-led-analyzer\src\AsyncRgbLedSimulationDataGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\languages\c\async-rgb-led-analyzer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8F590742-6AA9-3E7C-BA0E-11870ACE870C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F9CA12B1-102F-3291-9333-54D587493E1C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

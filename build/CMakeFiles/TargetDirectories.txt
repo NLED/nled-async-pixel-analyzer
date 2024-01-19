@@ -1,0 +1,4 @@
+C:/languages/c/async-rgb-led-analyzer/build/CMakeFiles/nled_async_pixel_analyzer.dir
+C:/languages/c/async-rgb-led-analyzer/build/CMakeFiles/INSTALL.dir
+C:/languages/c/async-rgb-led-analyzer/build/CMakeFiles/ALL_BUILD.dir
+C:/languages/c/async-rgb-led-analyzer/build/CMakeFiles/ZERO_CHECK.dir

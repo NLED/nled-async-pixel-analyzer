@@ -1,0 +1,10 @@
+^C:\LANGUAGES\C\ASYNC-RGB-LED-ANALYZER\BUILD\_DEPS\ANALYZERSDK-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild -BC:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild --check-stamp-file C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

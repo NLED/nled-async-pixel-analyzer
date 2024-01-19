@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/analyzersdk-populate"
+		},
+		{
+			"file" : "C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/5825d81c6aea8ba3f6d2acb50d213747/analyzersdk-populate.rule"
+		},
+		{
+			"file" : "C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/f635d2eba2ba5a2d7cfea808e7f3f5c8/analyzersdk-populate-complete.rule"
+		},
+		{
+			"file" : "C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/583ecf1eab093360ad50f74ee46d6bdb/analyzersdk-populate-build.rule"
+		},
+		{
+			"file" : "C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/583ecf1eab093360ad50f74ee46d6bdb/analyzersdk-populate-configure.rule"
+		},
+		{
+			"file" : "C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/583ecf1eab093360ad50f74ee46d6bdb/analyzersdk-populate-download.rule"
+		},
+		{
+			"file" : "C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/583ecf1eab093360ad50f74ee46d6bdb/analyzersdk-populate-install.rule"
+		},
+		{
+			"file" : "C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/583ecf1eab093360ad50f74ee46d6bdb/analyzersdk-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/583ecf1eab093360ad50f74ee46d6bdb/analyzersdk-populate-patch.rule"
+		},
+		{
+			"file" : "C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/583ecf1eab093360ad50f74ee46d6bdb/analyzersdk-populate-test.rule"
+		},
+		{
+			"file" : "C:/languages/c/async-rgb-led-analyzer/build/_deps/analyzersdk-subbuild/CMakeFiles/583ecf1eab093360ad50f74ee46d6bdb/analyzersdk-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"analyzersdk-populate"
+		],
+		"name" : "analyzersdk-populate"
+	}
+}
