@@ -1,0 +1,21 @@
+# ninja log v5
+2	62	7274218641829566	analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-mkdir	14e872f3df4a9f19
+2	62	7274218641829566	C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-mkdir	14e872f3df4a9f19
+2	3338	7274218804910001	analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-download	98563bf849f3a5c4
+2	3338	7274218804910001	C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-download	98563bf849f3a5c4
+3338	4423	0	analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-update	770180fe10692527
+3338	4423	0	C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-update	770180fe10692527
+4424	4471	7274218816239971	analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-patch	2535cb80d381a7a7
+4424	4471	7274218816239971	C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-patch	2535cb80d381a7a7
+4472	4520	7274218816729976	analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-configure	22705cd8f885a0d5
+4472	4520	7274218816729976	C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-configure	22705cd8f885a0d5
+4520	4569	7274218817219970	analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-build	bedc9a7aa9d95bd2
+4520	4569	7274218817219970	C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-build	bedc9a7aa9d95bd2
+4569	4620	7274218817729981	analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-install	dc0a59241b7cfd94
+4569	4620	7274218817729981	C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-install	dc0a59241b7cfd94
+4620	4671	7274218818239971	analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-test	33677accc12387dc
+4620	4671	7274218818239971	C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-test	33677accc12387dc
+4671	4742	7274218818949972	CMakeFiles/analyzersdk-populate-complete	8ff4db5acfb8f47f
+4671	4742	7274218818949972	analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-done	8ff4db5acfb8f47f
+4671	4742	7274218818949972	C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/CMakeFiles/analyzersdk-populate-complete	8ff4db5acfb8f47f
+4671	4742	7274218818949972	C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-done	8ff4db5acfb8f47f

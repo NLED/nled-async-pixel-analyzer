@@ -1,0 +1,1 @@
+C:/languages/c/nled-async-pixel-analyzer/out/install/x64-Release/Analyzers/nled_async_pixel_analyzer.dll

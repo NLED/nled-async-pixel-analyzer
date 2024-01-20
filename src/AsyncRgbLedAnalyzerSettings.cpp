@@ -62,7 +62,7 @@ void AsyncRgbLedAnalyzerSettings::InitControllerData()
 
      std::cout << "Initializing NLED Analyzer" << std::endl;
 
-     //Generated from spreadsheet
+     //Generated from spreadsheet that contains all the required data for each pixel chipset. Accuracy is not guaranteed. Only several of the listed chipsets have been verified on hardware.
      //Added: 
      // WS2811, WS2812, WS2812B, WS2812-V4, WS2812-2020, WS2813, WS2814, WS2815, WS2818A, WS2818B, UCS1903, UCS2903, UCS2904B, SM16703, SM16704, PD9823, APA106, SK6822, APA104, SK6805MINI, 
      // LC8806B-2020, SK6805, SK6812, SK6812RGBW, SK6812RGBP8 , SK6812HV-4P, SK6805-EC15, SK6812RGBWP8, SK9816, SK6813, LPD1886, TM1803, TM1804, TM1829(hi speed)
@@ -129,7 +129,7 @@ void AsyncRgbLedAnalyzerSettings::InitControllerData()
            false,
            { {}, {} },
            LAYOUT_GRB },
-         { "WS2814",
+         { "WS2814(RGBW)",
            "generated",
            8,
            4,
@@ -177,7 +177,7 @@ void AsyncRgbLedAnalyzerSettings::InitControllerData()
            false,
            { {}, {} },
            LAYOUT_RGB },
-         { "UCS2904B",
+         { "UCS2904B(RGBW)",
            "generated",
            8,
            4,
@@ -201,7 +201,7 @@ void AsyncRgbLedAnalyzerSettings::InitControllerData()
            false,
            { {}, {} },
            LAYOUT_RGB },
-         { "SM16704",
+         { "SM16704(RGBW)",
            "generated",
            8,
            4,
@@ -272,7 +272,7 @@ void AsyncRgbLedAnalyzerSettings::InitControllerData()
            },
            false,
            { {}, {} },
-           LAYOUT_RGBW },
+           LAYOUT_GRBW },
          { "SK6812RGBP8 , SK6812HV-4P, SK6805-EC15",
            "generated",
            8,
@@ -349,7 +349,7 @@ void AsyncRgbLedAnalyzerSettings::InitControllerData()
              { "TM1804",
                "generated",
                8,
-               4,
+               3,
                { 24_us, 24_us, 24_us },
                {
                    { { 400_ns, 400_ns, 400_ns }, { 320_ns, 320_ns, 320_ns } }, // 0-bit times
@@ -357,7 +357,7 @@ void AsyncRgbLedAnalyzerSettings::InitControllerData()
                },
                false,
                { {}, {} },
-               LAYOUT_RGBW },
+               LAYOUT_RGB },
              { "TM1829(hi speed)",
                "generated",
                8,

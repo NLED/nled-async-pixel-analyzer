@@ -1,0 +1,17 @@
+# ninja log v5
+26	34	0	clean	8c45b54705a541e8
+23	785	7274218296945775	CMakeFiles/nled_async_pixel_analyzer.dir/src/AsyncRgbLedHelpers.cpp.obj	35d7a59f7b211686
+28	832	7274218297505747	CMakeFiles/nled_async_pixel_analyzer.dir/src/AsyncRgbLedSimulationDataGenerator.cpp.obj	67e4168df0988e6e
+17	890	7274218298095751	CMakeFiles/nled_async_pixel_analyzer.dir/src/AsyncRgbLedAnalyzerResults.cpp.obj	d59afcb167d44d54
+8	917	7274218298355753	CMakeFiles/nled_async_pixel_analyzer.dir/src/AsyncRgbLedAnalyzer.cpp.obj	4302c297ed83d340
+20	923	7274218298415735	CMakeFiles/nled_async_pixel_analyzer.dir/src/AsyncRgbLedAnalyzerSettings.cpp.obj	a058eff5b7f5ca31
+923	1287	7274218301895747	Analyzers/nled_async_pixel_analyzer.dll	2466625bb90b2e0d
+1287	1362	0	CMakeFiles/install.util	8b8e41ccb77694c7
+5	15	0	clean	8c45b54705a541e8
+20	284	7274231232365765	CMakeFiles/nled_async_pixel_analyzer.dir/src/AsyncRgbLedHelpers.cpp.obj	35d7a59f7b211686
+24	596	7274231235465759	CMakeFiles/nled_async_pixel_analyzer.dir/src/AsyncRgbLedSimulationDataGenerator.cpp.obj	67e4168df0988e6e
+8	609	7274231235595761	CMakeFiles/nled_async_pixel_analyzer.dir/src/AsyncRgbLedAnalyzer.cpp.obj	4302c297ed83d340
+12	634	7274231235865753	CMakeFiles/nled_async_pixel_analyzer.dir/src/AsyncRgbLedAnalyzerResults.cpp.obj	d59afcb167d44d54
+16	656	7274231236095741	CMakeFiles/nled_async_pixel_analyzer.dir/src/AsyncRgbLedAnalyzerSettings.cpp.obj	a058eff5b7f5ca31
+657	863	7274231237485737	Analyzers/nled_async_pixel_analyzer.dll	2466625bb90b2e0d
+863	993	0	CMakeFiles/install.util	8b8e41ccb77694c7

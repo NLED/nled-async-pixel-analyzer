@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DLOGIC2 -Dnled_async_pixel_analyzer_EXPORTS -external:IC:\\languages\\c\\nled-async-pixel-analyzer\\out\\build\\x64-Debug\\_deps\\analyzersdk-src\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\nled_async_pixel_analyzer.dir\\src\\AsyncRgbLedAnalyzer.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\languages\\c\\nled-async-pixel-analyzer\\src\\AsyncRgbLedAnalyzer.cpp",
+  "file": "C:\\languages\\c\\nled-async-pixel-analyzer\\src\\AsyncRgbLedAnalyzer.cpp",
+  "output": "CMakeFiles\\nled_async_pixel_analyzer.dir\\src\\AsyncRgbLedAnalyzer.cpp.obj"
+},
+{
+  "directory": "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DLOGIC2 -Dnled_async_pixel_analyzer_EXPORTS -external:IC:\\languages\\c\\nled-async-pixel-analyzer\\out\\build\\x64-Debug\\_deps\\analyzersdk-src\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\nled_async_pixel_analyzer.dir\\src\\AsyncRgbLedAnalyzerResults.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\languages\\c\\nled-async-pixel-analyzer\\src\\AsyncRgbLedAnalyzerResults.cpp",
+  "file": "C:\\languages\\c\\nled-async-pixel-analyzer\\src\\AsyncRgbLedAnalyzerResults.cpp",
+  "output": "CMakeFiles\\nled_async_pixel_analyzer.dir\\src\\AsyncRgbLedAnalyzerResults.cpp.obj"
+},
+{
+  "directory": "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DLOGIC2 -Dnled_async_pixel_analyzer_EXPORTS -external:IC:\\languages\\c\\nled-async-pixel-analyzer\\out\\build\\x64-Debug\\_deps\\analyzersdk-src\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\nled_async_pixel_analyzer.dir\\src\\AsyncRgbLedAnalyzerSettings.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\languages\\c\\nled-async-pixel-analyzer\\src\\AsyncRgbLedAnalyzerSettings.cpp",
+  "file": "C:\\languages\\c\\nled-async-pixel-analyzer\\src\\AsyncRgbLedAnalyzerSettings.cpp",
+  "output": "CMakeFiles\\nled_async_pixel_analyzer.dir\\src\\AsyncRgbLedAnalyzerSettings.cpp.obj"
+},
+{
+  "directory": "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DLOGIC2 -Dnled_async_pixel_analyzer_EXPORTS -external:IC:\\languages\\c\\nled-async-pixel-analyzer\\out\\build\\x64-Debug\\_deps\\analyzersdk-src\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\nled_async_pixel_analyzer.dir\\src\\AsyncRgbLedHelpers.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\languages\\c\\nled-async-pixel-analyzer\\src\\AsyncRgbLedHelpers.cpp",
+  "file": "C:\\languages\\c\\nled-async-pixel-analyzer\\src\\AsyncRgbLedHelpers.cpp",
+  "output": "CMakeFiles\\nled_async_pixel_analyzer.dir\\src\\AsyncRgbLedHelpers.cpp.obj"
+},
+{
+  "directory": "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DLOGIC2 -Dnled_async_pixel_analyzer_EXPORTS -external:IC:\\languages\\c\\nled-async-pixel-analyzer\\out\\build\\x64-Debug\\_deps\\analyzersdk-src\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\nled_async_pixel_analyzer.dir\\src\\AsyncRgbLedSimulationDataGenerator.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\languages\\c\\nled-async-pixel-analyzer\\src\\AsyncRgbLedSimulationDataGenerator.cpp",
+  "file": "C:\\languages\\c\\nled-async-pixel-analyzer\\src\\AsyncRgbLedSimulationDataGenerator.cpp",
+  "output": "CMakeFiles\\nled_async_pixel_analyzer.dir\\src\\AsyncRgbLedSimulationDataGenerator.cpp.obj"
+}
+]

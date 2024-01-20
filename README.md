@@ -1,3 +1,25 @@
+# nled-async-pixel-analyzer
+
+Based on the Saleae Analyzer: https://github.com/saleae/async-rgb-led-analyzer
+
+Compatible with Saleae Logic 2 app
+
+Modified to add addional async addressable pixel chipsets and added RGBW/GRBW support. Project made in Visual Studio 2022.
+
+I am unfamiliar with this language and IDE so I can't say the code changes are perfect. But the result works well and is very useful for working with all types of addressable pixels.
+
+Chipsets Supported:
+ WS2811, WS2812, WS2812B, WS2812-V4, WS2812-2020, WS2813, WS2814, WS2815, WS2818A, WS2818B, UCS1903, UCS2903, UCS2904B, SM16703, SM16704, PD9823, APA106, SK6822, APA104, SK6805MINI, 
+LC8806B-2020, SK6805, SK6812, SK6812RGBW, SK6812RGBP8 , SK6812HV-4P, SK6805-EC15, SK6812RGBWP8, SK9816, SK6813, LPD1886, TM1803, TM1804, TM1829(hi speed)
+
+Color ordering such as GRB or GRBW is automatically applied.
+
+# To Install On Windows
+
+Move the dll file found at nled-async-pixel-analyzer/out/install/x64-Release/Analyzers/nled_async_pixel_analyzer.dll
+
+To the Logic Analyzers folder, default path: C:\Program Files\Logic\resources\windows-x64\Analyzers
+
 # Saleae Async RGB LED Analyzer
 
 Saleae Async RGB LED Analyzer

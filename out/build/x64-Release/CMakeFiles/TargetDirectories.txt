@@ -1,0 +1,6 @@
+C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/CMakeFiles/nled_async_pixel_analyzer.dir
+C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/CMakeFiles/edit_cache.dir
+C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/CMakeFiles/rebuild_cache.dir
+C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/CMakeFiles/list_install_components.dir
+C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/CMakeFiles/install.dir
+C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/CMakeFiles/install/local.dir

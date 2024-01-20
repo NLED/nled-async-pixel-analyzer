@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/CMakeFiles/analyzersdk-populate"
+		},
+		{
+			"file" : "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/CMakeFiles/analyzersdk-populate.rule"
+		},
+		{
+			"file" : "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/CMakeFiles/analyzersdk-populate-complete.rule"
+		},
+		{
+			"file" : "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-build.rule"
+		},
+		{
+			"file" : "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-configure.rule"
+		},
+		{
+			"file" : "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-download.rule"
+		},
+		{
+			"file" : "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-install.rule"
+		},
+		{
+			"file" : "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-patch.rule"
+		},
+		{
+			"file" : "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-test.rule"
+		},
+		{
+			"file" : "C:/languages/c/nled-async-pixel-analyzer/out/build/x64-Release/_deps/analyzersdk-subbuild/analyzersdk-populate-prefix/src/analyzersdk-populate-stamp/analyzersdk-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"analyzersdk-populate"
+		],
+		"name" : "analyzersdk-populate"
+	}
+}
